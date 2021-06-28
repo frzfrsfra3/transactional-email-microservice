@@ -29,7 +29,7 @@ The purpose of using the two email service providers is to utilize one service a
 
 - Run following commands:
 ```
-git clone https://github.com/alpharameeztech/transactional-email-microservice.git
+git clone https://github.com/frzfrsfra3/transactional-email-microservice
 composer install
 cp .env.example .env
 npm install
@@ -41,7 +41,7 @@ php artisan migrate
 Run the following command:  
 
 ```
-git clone https://github.com/alpharameeztech/transactional-email-microservice.git
+git clone https://github.com/frzfrsfra3/transactional-email-microservice
 docker run --rm -v $(pwd):/app composer install
 cp .env.example .env
 docker-compose up
